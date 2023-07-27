@@ -34,9 +34,7 @@ The spike raster (spikeMatrix) then would be of dimensions 20 x 1500 (one record
 roiCoordinates would be of dimensions 20 x 2, where the first column is x-axis coordinates and the second column is for y-axis cordinates.
 
 stimuliStruct wouuld be a stuct of size 5 with at least two fields:
-
 stimuliStruct(numberOfRec).t - this is a vector with either real time axis of one recording or just indexes of time frames (e.g. [1:300]);
-
 stimuliStruct(numberOfRec).alpha - a scalar value indicating what stimulus was presented during this recording.
 
 
