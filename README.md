@@ -41,6 +41,7 @@ stimuliStruct(numberOfRec).alpha - a scalar value indicating what stimulus was p
 
 stimuliParameters has to indicate the sample indexes when does the visual stimulus start and end and also which field from stimuliStruct to
 use as a label for stimuli.
+
 stimuliParameters.stimulusFieldName = 'alpha';
 stimuliParameters.stimulusStartAndEndFrames = [180, 240]; %from 6s to 8s.
 
