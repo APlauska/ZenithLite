@@ -42,6 +42,7 @@ stimuliParameters has to indicate the sample indexes when does the visual stimul
 use as a label for stimuli.
 
 stimuliParameters.stimulusFieldName = 'alpha';
+
 stimuliParameters.stimulusStartAndEndFrames = [180, 240]; %from 6s to 8s.
 
 see provided sample data for realistic example of the needed data format.
