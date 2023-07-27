@@ -38,7 +38,6 @@ stimuliStruct wouuld be a stuct of size 5 with at least two fields:
 stimuliStruct(numberOfRec).t - this is a vector with either real time axis of one recording or just indexes of time frames (e.g. [1:300]);
 stimuliStruct(numberOfRec).alpha - a scalar value indicating what stimulus was presented during this recording.
 
-
 stimuliParameters has to indicate the sample indexes when does the visual stimulus start and end and also which field from stimuliStruct to
 use as a label for stimuli.
 
