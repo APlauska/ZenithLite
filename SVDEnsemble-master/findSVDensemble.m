@@ -45,7 +45,7 @@ if isempty(state_cut); state_cut = round(size(data,1)/4); end
 
 %% find similarity structure
 % find high-activity frames
-[data_active,pk_indx,pks] = findActiveFrames(data,pks);
+[data_active,pk_indx,pks] = findActiveFramesCustom(data,pks);
 
 % run tf-idf - make this into a function
 % data_tfidf = calcTFIDF(data_active);
